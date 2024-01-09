@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Watson</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/main.scss" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-logo"><img src="img/nav-logo.svg" alt="" /></div>
+        <div class="nav-space"></div>
+        <div class="nav-langue">
+          <p>DE</p>
+          <span></span>
+          <p>FR</p>
+        </div>
+        <div class="nav-menu"><img src="img/menu-b.svg" alt="" /></div>
+      </nav>
+      <div class="nav-section">
+        <p>Suisse</p>
+        <p>International</p>
+        <p>Economie</p>
+        <p>Société</p>
+        <p>Sport</p>
+        <p>Divertissement</p>
+        <p>Blogs</p>
+        <p>Vidéos</p>
+        <p>Promotions</p>
+      </div>
+    </header>
+    <main>
+      <div class="grid-works">
+        <div class="parent">
+          <div class="div1 col-6 g-1">
+            <include src="module.html">
+              { "title": "Burna boy", "image": "img/burna-boy.jpg", "p": "Burna
+              Boy enflamme le Royaume-Uni et marque l'histoire des charts
+              Afrobeats" }
+            </include>
+          </div>
+          <div class="div2 col-3 g-1">
+            <include src="module.html">
+              { "title": "Napoleon", "image": "img/napoleon.png", "p": "Le film
+              Napoléon envoie les historiens se faire voir" }
+            </include>
+          </div>
+          <div class="div3 col-3 g-1">
+            <include src="module.html">
+              { "title": "Mario", "image": "img/mario.jpg", "p": " Icône de la
+              pop culture, de retour dans Super Mario Bros le film." }
+            </include>
+          </div>
+        </div>
+        <div class="section-info">
+          <div><img src="img/section-logo-oeil.svg" alt="" /></div>
+          <div class="section-name"><p>LES PLUS AIMES</p></div>
+        </div>
+        <div class="parent">
+          <div class="clusters col-6 g-2">
+            <div class="div4 col-2 g-2"></div>
+            <div class="div5 col-2 g-2"></div>
+            <div class="div6 col-2 g-2"></div>
+          </div>
+          <div class="div7 col-3 g-1">
+            <include src="module.html">
+              { "title": "Waly", "image": "img/prince-waly.jpg", "p": "Le projet
+              commun entre Prince Waly et Enchantée Julia arrive " }
+            </include>
+          </div>
+          <div class="div8 col-3 g-1">
+            <include src="module.html">
+              { "title": "Rohff", "image": "img/rohff.jpg", "p": "Rohff fait
+              preuve de Loyauté" }
+            </include>
+          </div>
+          <div class="div9 col-6 g-1">
+            <include src="module.html">
+              { "title": "Kill Bill", "image": "img/kill-bill.jpg", "p": "66
+              anecdotes qui tuent sur Kill Bill, le meilleur film de Quentin
+              Tarantino" }
+            </include>
+          </div>
+          <div class="div10 col-6 g-1">
+            <include src="module.html">
+              { "title": "Lebron James", "image": "img/lebron-james.jpg", "p":
+              "LeBron James est l’égérie de la nouvelle collection Louis
+              Vuitton" }
+            </include>
+          </div>
+          <div class="div11 col-3 g-1">
+            <include src="module.html">
+              { "title": "Blade", "image": "img/blade.jpg", "p": "La sortie du
+              jeu Marvel’s Blade est repoussée" }
+            </include>
+          </div>
+          <div class="div12 col-3 g-1">
+            <include src="module.html">
+              { "title": "GOT", "image": "img/game-of-thrones.jpg", "p": "Des
+              séries d’animation Game of Thrones vont voir le jour" }
+            </include>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>

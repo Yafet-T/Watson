@@ -1,0 +1,22 @@
+<div class="parent-module">
+  <div class="card-module">
+    <div class="grid-module">
+      <div class="text-card div1 col-1">
+        <h4>{{ title }}</h4>
+        <p>{{ p }}</p>
+        <div class="links-infos">
+          <img src="img/author.svg" alt="" />
+          <img src="img/calendar.svg" alt="" />
+          <img src="img/comment.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <img
+      class="animation"
+      src="{{ image }}"
+      srcset="{{ image }}?as=webp&width=375 375w,
+              {{ image }}?as=webp&width=750 750w,
+              {{ image }}?as=webp&width=1500 1500w"
+    />
+  </div>
+</div>
